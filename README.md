@@ -273,5 +273,5 @@ MySQL [employeedb]> show grants for 'zeke'@'localhost';
 ---
 ## To exist from mysql server
 ```shell
-> exit
+MySQL [employeedb]> exit
 ```

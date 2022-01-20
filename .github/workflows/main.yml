@@ -9,8 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
  
-      - name: Test 🚨
-        run: npm test
-        
+     
+
       - name: Run a one-line script
         run: echo "Hello, FIRSTDBTEST!"
