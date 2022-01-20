@@ -191,7 +191,7 @@ MySQL [employeedb]>create user if not exists 'zeke'@'localhost' identified by 's
 ## For granting user a  privilege to 
 
 -   all databases and all table
-    -   use *.*  as
+    -   use this ``` *.* ``` as
     ```shell
     MySQL [employeedb]>grant all privileges on *.* to 'controller'@'localhost' with grant option;
     ```
