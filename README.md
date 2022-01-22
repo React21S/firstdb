@@ -45,8 +45,7 @@ or
 ```shell
 > node firstdbtest
 ```
--   Output from terminal
-```js
+-   (Output from terminal)[```js
 ######### Test 1 #######
 [
   {
@@ -68,7 +67,7 @@ Matt: 5000 €
 Mary: 6000 €
 ######### Test 2 #######
 [ { firstname: 'Matt', lastname: 'River' } ]
-```
+```]
 
 
 ---
@@ -78,8 +77,7 @@ Mary: 6000 €
 MySQL [(none)]> show databases;
 ```
 
--   output
-```shell
+-   (output)[```shell
 +--------------------+
 | Database           |
 +--------------------+
@@ -90,7 +88,7 @@ MySQL [(none)]> show databases;
 | performance_schema |
 | sys                |
 +--------------------+
-```
+```]
 ---
 
 ## For creating database folder e.g femidb
