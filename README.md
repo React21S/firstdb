@@ -45,7 +45,7 @@ or
 ```shell
 > node firstdbtest
 ```
--   [Output from terminal](```js
+[Output from terminal](```js
 ######### Test 1 #######
 [
   {
@@ -77,7 +77,7 @@ Mary: 6000 €
 MySQL [(none)]> show databases;
 ```
 
--   [output](```shell
+[output](```shell
 +--------------------+
 | Database           |
 +--------------------+
