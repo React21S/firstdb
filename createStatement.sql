@@ -12,6 +12,7 @@ create table employee(
 
 insert into employee values(1,'Matt','River','ICT',5000);
 insert into employee values(2,'Mary','Smith','admin',6000);
+insert into employee values(3,'Femi','Adesola','ICT',5000);
 
 drop user if exists 'zeke'@'localhost';
 create user 'zeke'@'localhost' identified by 'secret';

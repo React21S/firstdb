@@ -9,6 +9,11 @@
     -   javascript
     -   MySQL
 
+installation on localhost
+```shell
+> npm init -y
+```
+
 ### For checking the version of mysql fro terminal
 ```shell
 > mysql --version
@@ -16,6 +21,8 @@
 
 ---
 ## Installation through mac
+
+
 
 ```shell
 > brew install mysql
@@ -275,3 +282,11 @@ MySQL [employeedb]> show grants for 'zeke'@'localhost';
 ```shell
 MySQL [employeedb]> exit
 ```
+
+## To delete employee data
+```shell
+MySQL [employeedb]> delete from employee where employeeId=5;
+```
+
+
+[Steps for connecting to database through node.js](/Connection.md)
