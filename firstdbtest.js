@@ -15,7 +15,8 @@ const testA = async()=>{
     let result = await connection.query('select * from employee');
     
     console.log(result); // without delete result data
-    delete result.meta; // we delete our meta result data
+    console.log('##### delete meta result data ######')
+    delete result.meta; // we delete meta result data
     console.log(result);
 
     for(let person of result){

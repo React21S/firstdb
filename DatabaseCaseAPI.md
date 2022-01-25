@@ -1,5 +1,6 @@
 # Database class
 
+
 - This database class is a general purpose class for using Mariadb/Mysql queries.
 
 - The constructor takes all necessary information needed to open a database connection as a parameter object.
@@ -66,10 +67,10 @@ for example
 result = await db.doQuery ('insert into employee values(?,?,?,?,?)', [6, 'Petra', 'Bond', 'admin', 9000])
 ```
 
-Return value is an object [Output]:
+Return a Promise. Return value is an object [Output]:
 ```js
 {
-    queryResult:{rowChnaged:1, insertId:0, status:0},
+    queryResult:{rowChanged:1, insertId:0, status:0},
     resultSet:false
 }
 ```
