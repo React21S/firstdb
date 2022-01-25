@@ -1,8 +1,27 @@
 # Steps for connecting to database through node.js
+[for connecting to database method through node.js](/DatabaseCaseAPI.md)
 
 ```js
 'use strict';
 const mariadb= require('mariadb');
+```
+---
+
+## To create a database
+```js
+const options={
+    host:'localhost'
+    port:3306,
+    user:'zeke',
+    password:'secret',
+    database:'employeedb'
+    allowPublicKeyRetrieval:true //mysql users add this
+}
+```
+
+## Usage
+```js
+const db = new Database(options);
 ```
 ---
 ### For checking employee first name and salary
@@ -42,7 +61,6 @@ const testA = async()=>{
         database:'employeedb',
         allowPublicKeyRetrieval:true // mysql users add this
     });
-    let result = await connection.query('select * from employee');
     
     result = await connection.query('select firstname, lastname from employee where employeeId=? or employeeId=?', [1,2]); //[1, last]
 
