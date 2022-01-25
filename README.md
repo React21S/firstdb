@@ -1,6 +1,7 @@
 [![FIRSTDBTEST](https://github.com/React21S/firstdb/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/React21S/firstdb/actions)
 
 
+[Steps for connecting to database through node.js](/Connection.md)
 # Lecture on database using mysql and mariadb
 
 -   built with 
@@ -289,4 +290,3 @@ MySQL [employeedb]> delete from employee where employeeId=5;
 ```
 
 
-[Steps for connecting to database through node.js](/Connection.md)
